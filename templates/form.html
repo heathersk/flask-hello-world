@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create New Template</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/v1/templates/create" method = "POST">
+            <label for="mentee">Mentee Name</label>
+            <input type="text" id="mentee" name="firstname" placeholder="Mentee Name">
+            <label for="video">YouTube Link</label>
+            <input type="url" id="video" placeholder="YouTube Link">
+
+            <label for="description">Description</label>
+            <texta area id="description" name="description" placeholder="Write something" style="height:200px"></texta>
+
+            <input type="submit" value="Submit">
+
+            
+        </form>
+    </div>
+</body>
+</html>
